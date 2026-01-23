@@ -157,6 +157,7 @@ main {
 /* Ingredients Container */
 .ingredients-container {
     /* TODO: Set display to none (hidden by default) */
+    display: none;
     margin-top: 1rem;
     padding: 1rem;
     background: #f8f9fa;
@@ -165,6 +166,8 @@ main {
 
 .ingredients-container.visible {
     /* TODO: Set display to block (visible when toggled) */
+    display: block;
+
 }
 
 .ingredients-container h4 {
